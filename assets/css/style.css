@@ -565,7 +565,7 @@ section {
 }
 
 .section-title {
-  text-align: center;
+  /* text-align: center; */
   padding-bottom: 30px;
 }
 
@@ -578,7 +578,7 @@ section {
   position: relative;
   color: #e0b700;
 }
-
+/* 
 .section-title h2::before {
   content: "";
   position: absolute;
@@ -588,8 +588,8 @@ section {
   background: #ffffff;
   bottom: 1px;
   left: calc(50% - 60px);
-}
-
+} */
+/* 
 .section-title h2::after {
   content: "";
   position: absolute;
@@ -599,7 +599,7 @@ section {
   background: #e0b700;
   bottom: 0;
   left: calc(50% - 20px);
-}
+} */
 
 .section-title p {
   margin-bottom: 0;
@@ -1193,7 +1193,7 @@ section {
   font-weight: 500;
 }
 
-.team .member span::after {
+/* .team .member span::after {
   content: "";
   position: absolute;
   display: block;
@@ -1202,7 +1202,7 @@ section {
   background: #cbd6e9;
   bottom: 0;
   left: 0;
-}
+} */
 
 .team .member p {
   margin: 10px 0 0 0;
@@ -1693,12 +1693,12 @@ section {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+/* .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
   color: #e0b700;
   content: "/";
-}
+} */
 
 /*--------------------------------------------------------------
 # Footer
@@ -1895,7 +1895,7 @@ section {
 /*--------------------------------------------------------------
 # Video Portofolio
 --------------------------------------------------------------*/
-.Video h3 {
+.Video .content h3 {
   font-weight: 700;
   font-size: 32px;
   color: #e0b700;
